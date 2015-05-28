@@ -25,12 +25,6 @@
                         <input type="text" name="user" id="user" />
                         <input type="submit" value="Login"/>
                 </form>
-                <p>
-                        <?php
-                                if (isset($response)) {
-                                        echo nl2br($response);
-                                }
-                        ?>
-                </p>
+
         </body>
 </html>
