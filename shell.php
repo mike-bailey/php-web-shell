@@ -18,7 +18,7 @@
 			<?php 
 				if (isset($response)) 
 				{
-					echo $response;
+					echo nl2br($response);
 				}
 			?>
 		</p>
