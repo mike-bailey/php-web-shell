@@ -50,7 +50,7 @@
                                 <pre>
                                 <?php
                                         if (isset($response)) {
-                                                echo htmlentities(nl2br($response));
+                                                echo htmlentities($response);
                                         }
                                 ?>
                                 </pre>
