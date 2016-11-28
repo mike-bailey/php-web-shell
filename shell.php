@@ -46,6 +46,7 @@
                   <button type="submit" value="Login" class="btn btn-default">Sign in</button>
                 </form>
                 <p>     
+        </center>
                         <div id="results" visibility="hidden" display="none" hidden>
                                 <pre>
                                 <?php
@@ -56,7 +57,7 @@
                                 </pre>
                         </div>
                 </p>
-        </center>
+        
         </div>
         </body>
 </html>
